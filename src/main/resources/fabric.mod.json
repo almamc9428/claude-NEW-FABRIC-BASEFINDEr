@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "my-fabric-mod",
+  "version": "${version}",
+  "name": "My Fabric Mod",
+  "description": "A client-side Fabric mod with a module menu for Minecraft 1.21.11.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.myfabricmod.MyFabricModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
